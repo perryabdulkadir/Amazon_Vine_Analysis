@@ -20,7 +20,7 @@ I filtered the paid review dataset with the code below (I had previously cleaned
 vine_df_clean_filtered_total_votes_ratio_unpaid = vine_df_clean_filtered_total_votes_ratio[vine_df_clean_filtered_total_votes_ratio['vine'] == False]
 ```
 This yielded 170 paid Vine reviews for pet products. 
-[total_paid.png](Resources/total_paid.PNG)
+![total_paid.png](Resources/total_paid.PNG)
 
 I ran another filter to create a data set with just unpaid reviews for pet products.
 ```
@@ -28,4 +28,4 @@ vine_df_clean_filtered_total_votes_ratio_unpaid = vine_df_clean_filtered_total_v
 ```
 
 There are 37,840 unpaid reviews for pet products.
-[total_unpaid.png](Resources/total_unpaid.PNG)
+![total_unpaid.png](Resources/total_unpaid.PNG)
