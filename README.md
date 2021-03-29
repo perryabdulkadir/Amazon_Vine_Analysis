@@ -31,3 +31,33 @@ vine_df_clean_filtered_total_votes_ratio_unpaid = vine_df_clean_filtered_total_v
 There are 37,840 unpaid reviews for pet products.
 
 ![total_unpaid.png](Resources/total_unpaid.PNG)
+
+* **5-Star reviews in Vine vs. non-Vine**
+
+I created a new dataframe that contained only 5-star paid Vine reviews. 
+```
+total_paid_5_star_df = vine_df_clean_filtered_total_votes_ratio_paid[vine_df_clean_filtered_total_votes_ratio_paid['star_rating'] == 5]
+```
+
+![paid_5_star.png](Resources/paid_5_star.PNG)
+
+This left 65 out of 170 total paid reviews as 5-star. 
+
+Next, I created a new dataframe containing only 5-star unpaid reviews.
+```
+total_unpaid_5_star_df = vine_df_clean_filtered_total_votes_ratio_unpaid[vine_df_clean_filtered_total_votes_ratio_unpaid['star_rating'] == 5]
+```
+
+![unpaid_5_star.png](Resources/unpaid_5_star.PNG)
+
+* **Percentage of 5-star ratings in paid vs. unpaid reviews**
+
+Finally, I calculated the percentage of paid reviews that were 5-star. 
+
+![percent_5_star_paid.png](Resources/percent_5_star_paid.PNG)
+
+Approximately 54.5% of paid reviews were 5-star. 
+
+Then, I calculated the percentage of unpaid reviews that were 5-star.
+
+![percent_5_star_unpaid.png](Resources/percent_5_star_unpaid.PNG)
