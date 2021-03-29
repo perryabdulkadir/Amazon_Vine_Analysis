@@ -10,3 +10,22 @@ The question I answer in this project is: is the percentage of 5-star reviews hi
 Software/tools: PGAdmin 4, PySpark, AWS, Jupyter Notebook, Pandas
 
 Data: The pet products Amazon review dataset, available [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt).
+
+## Results
+* **Vine reviews vs. non-Vine reviews**
+
+I filtered the paid review dataset with the code below (I had previously cleaned the data set):
+
+```
+vine_df_clean_filtered_total_votes_ratio_unpaid = vine_df_clean_filtered_total_votes_ratio[vine_df_clean_filtered_total_votes_ratio['vine'] == False]
+```
+This yielded 170 paid Vine reviews for pet products. 
+[total_paid.png](Resources/total_paid.png)!
+
+I ran another filter to create a data set with just unpaid reviews for pet products.
+```
+vine_df_clean_filtered_total_votes_ratio_unpaid = vine_df_clean_filtered_total_votes_ratio[vine_df_clean_filtered_total_votes_ratio['vine'] == False]
+```
+
+There are 37,840 unpaid reviews for pet products.
+[total_unpaid.png](Resources/total_unpaid.png)!
