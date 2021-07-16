@@ -7,7 +7,7 @@ For this project, I was instructed to conduct an analysis of product reviews fro
 The question I answer in this project is: do paid reviewers give 5-star reviews at a higher rate than unpaid reviewers? 
 
 ### Resources
-Software/tools: PGAdmin 4, AWS, Jupyter Notebook, Google Colab
+Software/tools: PGAdmin 4, SQL, AWS, Jupyter Notebook, Google Colab
 
 Python packages: PySpark, pandas, numpy
 
@@ -17,6 +17,9 @@ Data: The pet products Amazon review dataset, available [here](https://s3.amazon
 
 ### Perform ETL on Amazon Product Reviews
 
+I began my analysis by creating a database with Amazon RDS. Next, I used the SQL query below to create tables for my database. 
+
+![sql_create_tables.png](Resources/sql_create_tables.PNG)
 
 ## Results
 * **Vine reviews vs. non-Vine reviews**
