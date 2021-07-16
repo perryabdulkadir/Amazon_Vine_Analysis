@@ -42,6 +42,8 @@ I connected to AWS RDS and wrote each data frame to its table. (Note: my passwor
 
 ![write_to_aws.png](Resources/write_to_aws.PNG)
 
+Finally, I connected to my AWS RDS instance in PgAdmin and loaded the data frames to their corresponding tables.
+
 ## Results
 * **Vine reviews vs. non-Vine reviews**
 
