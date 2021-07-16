@@ -29,6 +29,19 @@ Next, I loaded the AWS data into the Spark data frame.
 
 ![aws_load.png](Resources/aws_load.PNG)
 
+Then, a table was made corresponding to each table in Postgres. 
+
+![df_to_match_tables.png](Resources/df_to_match_tables.PNG)
+
+This process was repeated for the products_table and vine_table. The same process was used for review_id_table, but the date was also changed to datetime format. 
+
+```
+review_id_df = df.select(["review_id", "customer_id", "product_id", "product_parent", to_date("review_date", 'yyyy-MM-dd').alias("review_date")])
+```
+I connected to AWS RDS and wrote each data frame to its table. (Note: my password is not actually "password" - that's a stand-in.  I wanted to let people know lest my cyber security integrity never be trusted again.)
+
+![write_to_aws.png](Resources/write_to_aws.PNG)
+
 ## Results
 * **Vine reviews vs. non-Vine reviews**
 
