@@ -102,3 +102,13 @@ Roughly 54.5% of unpaid reviews were 5-star.
 There is no evidence to suggest that paid Vine reviewers are biased positively toward pet products. In fact, they are significantly less positive toward products than their unpaid counterparts: just 38.2% of their reviews were 5-star, compared with 54.5% of the unpaid reviews. 
 
 In order to confirm this, it would be helpful to do further analysis on the full dataset. Initially, the dataset contained well over 2.6 million reviews. However, I significantly winnowed this dataset down before doing my analysis. After filtering out reviews that didn't receive at least 20 votes and filtering out reviews that didn't have a positive vote ratio of at least 50%, only approximately 38,000 reviews remained. It's possible that this created selection bias: maybe users do not find 5-star reviews from paid reviewers trustworthy, so they do not vote for them. We would need to do analysis on the larger data set to make sure this analysis is not just a fluke of a highly curated dataset. 
+
+
+-----
+
+### **Contact:**
+
+**Email:** perry.abdulkadir@alumni.harvard.edu
+
+**Linkedin:** https://www.linkedin.com/in/perry-abdulkadir-6a255199/
+
