@@ -1,5 +1,5 @@
 # Amazon_Vine_Analysis
-Columbia Data Science Module 16
+Big data - evaluating the Amazon Vine review program using AWS RDS, PG Admin, Python, and Spark 
 
 ## Overview
 For this project, I was instructed to conduct an analysis of product reviews from the Amazon Vine program - a program in which participants are paid to write reviews. In order to complete this project, I created an RDS on AWS. Then, using PySpark in Google Colab, I pushed the Amazon product review data to my local PostgreSQL database. Finally, I exported the dataframe as a .csv, read it into Jupyter Notebook, and used Pandas to conduct an analysis of the data. 
