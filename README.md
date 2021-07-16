@@ -9,7 +9,7 @@ The question I answer in this project is: do paid reviewers give 5-star reviews 
 ### Resources
 Software/tools: PGAdmin 4, SQL, AWS, Jupyter Notebook, Google Colab
 
-Python packages: PySpark, pandas, numpy
+Python packages: PySpark, pandas, numpy, spark 3.0
 
 Data: The pet products Amazon review dataset, available [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt).
 
@@ -20,6 +20,14 @@ Data: The pet products Amazon review dataset, available [here](https://s3.amazon
 I began my analysis by creating a database with Amazon RDS. Next, I used the SQL query below to create tables for my database. 
 
 ![sql_create_tables.png](Resources/sql_create_tables.PNG)
+
+In Google Colab, I initialized the data transfer by importing the necessary packages and Postgres drivers. 
+
+![initialize.png](Resources/initialize.PNG)
+
+Next, I loaded the AWS data into the Spark data frame. 
+
+![aws_load.png](Resources/aws_load.PNG)
 
 ## Results
 * **Vine reviews vs. non-Vine reviews**
