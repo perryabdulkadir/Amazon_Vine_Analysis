@@ -7,7 +7,9 @@ For this project, I was instructed to conduct an analysis of product reviews fro
 The question I answer in this project is: is the percentage of 5-star reviews higher from paid reviewers than unpaid reviewers? 
 
 ## Resources
-Software/tools: PGAdmin 4, PySpark, AWS, Jupyter Notebook, Pandas
+Software/tools: PGAdmin 4, AWS, Jupyter Notebook
+
+Python packages: PySpark, pandas, numpy
 
 Data: The pet products Amazon review dataset, available [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt).
 
