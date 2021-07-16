@@ -6,12 +6,17 @@ For this project, I was instructed to conduct an analysis of product reviews fro
 
 The question I answer in this project is: do paid reviewers give 5-star reviews at a higher rate than unpaid reviewers? 
 
-## Resources
-Software/tools: PGAdmin 4, AWS, Jupyter Notebook
+### Resources
+Software/tools: PGAdmin 4, AWS, Jupyter Notebook, Google Colab
 
 Python packages: PySpark, pandas, numpy
 
 Data: The pet products Amazon review dataset, available [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt).
+
+## Analysis 
+
+### Perform ETL on Amazon Product Reviews
+
 
 ## Results
 * **Vine reviews vs. non-Vine reviews**
